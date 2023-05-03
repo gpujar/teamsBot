@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const dialogflow = require('@google-cloud/dialogflow');
 require('dotenv').config();
 
+// Comment
 const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
 // Your google dialogflow project-id
 const PROJECID = CREDENTIALS.project_id;
